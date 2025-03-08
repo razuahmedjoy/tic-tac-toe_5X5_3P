@@ -16,6 +16,6 @@ export const getLeaderboard = async (req: Request, res: Response) => {
         const results = await fetchLeaderboard();
         res.json(results);
     } catch (error) {
-        res.status(500).json({ message: 'Error fetching leaderboard' });
+        res.status(500).json({ message: 'Error fetching leaderboard', error: error });
     }
 };

@@ -28,7 +28,7 @@ const getLeaderboard = (req, res) => __awaiter(void 0, void 0, void 0, function*
         res.json(results);
     }
     catch (error) {
-        res.status(500).json({ message: 'Error fetching leaderboard' });
+        res.status(500).json({ message: 'Error fetching leaderboard', error: error });
     }
 });
 exports.getLeaderboard = getLeaderboard;
