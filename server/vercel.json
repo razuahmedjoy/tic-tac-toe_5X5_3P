@@ -1,7 +1,7 @@
 {
   "version": 2,
   "builds": [{ "src": "dist/index.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "src/(.*)", "dest": "dist/index.js" }],
+  "routes": [{ "src": "/api/(.*)", "dest": "dist/index.js" }],
   "build": {
     "env": {
       "PRISMA_GENERATE": "true"
