@@ -8,6 +8,7 @@ export default defineConfig({
   build: {
     outDir: "dist", // Ensure the output folder is correct
   },
+  base: "./", // Ensures correct asset paths in production
   server: {
     proxy: {
       '/api': {
