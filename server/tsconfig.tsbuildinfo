@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/app/controllers/game.controller.ts","./src/app/middlewares/validaterequest.ts","./src/app/routes/game.routes.ts","./src/app/services/game.service.ts","./src/app/services/prismaerror.service.ts","./src/app/validators/game.schema.ts","./src/config/app.config.ts","./src/config/prisma.client.ts"],"version":"5.7.2"}
