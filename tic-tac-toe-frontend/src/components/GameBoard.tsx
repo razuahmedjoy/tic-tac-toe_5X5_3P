@@ -107,7 +107,7 @@ const GameBoard = () => {
             <div className="max-w-2xl mx-auto">
                 <h1 className="text-4xl font-bold text-center mb-8">5x5 Tic Tac Toe</h1>
 
-                <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+                <div className="bg-white max-w-md mx-auto rounded-lg shadow-lg p-6 mb-8">
                     <div className="grid grid-cols-5 gap-2 mb-4">
                         {board.map((row, rowIndex) => (
                             row.map((cell, colIndex) => (
